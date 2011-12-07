@@ -1,0 +1,15 @@
+diff -up ./org.eclipse.mylyn.trac-feature/feature.xml.nojaxb ./org.eclipse.mylyn.trac-feature/feature.xml
+--- ./org.eclipse.mylyn.trac-feature/feature.xml.nojaxb	2008-07-29 14:47:21.000000000 -0400
++++ ./org.eclipse.mylyn.trac-feature/feature.xml	2008-07-29 14:47:30.000000000 -0400
+@@ -108,11 +108,4 @@ Java and all Java-based trademarks are t
+          version="0.0.0"
+          unpack="false"/>
+ 
+-   <plugin
+-         id="javax.xml.bind"
+-         download-size="0"
+-         install-size="0"
+-         version="0.0.0"
+-         unpack="false"/>
+-
+ </feature>

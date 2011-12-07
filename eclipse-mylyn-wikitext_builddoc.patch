@@ -1,0 +1,11 @@
+--- org.eclipse.mylyn.wikitext.help.ui/META-INF/MANIFEST.MF.orig	2009-08-13 22:57:10.000000000 +0300
++++ org.eclipse.mylyn.wikitext.help.ui/META-INF/MANIFEST.MF	2009-10-26 14:00:23.969824099 +0200
+@@ -4,5 +4,7 @@ Bundle-Name: %Bundle-Name.0
+ Bundle-SymbolicName: org.eclipse.mylyn.wikitext.help.ui;singleton:=true
+ Bundle-Version: 1.2.1.qualifier
+ Bundle-Vendor: %Bundle-Vendor.0
+-Require-Bundle: org.eclipse.help
++Require-Bundle: org.eclipse.help,
++      org.eclipse.mylyn.wikitext.core,
++      org.eclipse.mylyn.wikitext.textile.core
+ Bundle-Localization: plugin

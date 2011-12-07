@@ -1,0 +1,17 @@
+diff -up ./org.eclipse.mylyn.trac.core/META-INF/MANIFEST.MF.splitxmlrpc ./org.eclipse.mylyn.trac.core/META-INF/MANIFEST.MF
+--- ./org.eclipse.mylyn.trac.core/META-INF/MANIFEST.MF.splitxmlrpc	2008-07-29 15:09:19.000000000 -0400
++++ ./org.eclipse.mylyn.trac.core/META-INF/MANIFEST.MF	2008-07-29 15:42:17.000000000 -0400
+@@ -8,8 +8,11 @@ Require-Bundle: org.eclipse.core.runtime
+  org.eclipse.mylyn.context.core;bundle-version="[3.0.0,4.0.0)",
+  org.eclipse.mylyn.tasks.core;bundle-version="[3.0.0,4.0.0)",
+  org.eclipse.mylyn.commons.core;bundle-version="[3.0.0,4.0.0)",
+- org.eclipse.mylyn.commons.net;bundle-version="[3.0.0,4.0.0)",
+- org.apache.xmlrpc;bundle-version="[3.0.0,4.0.0)"
++ org.eclipse.mylyn.commons.net;bundle-version="[3.0.0,4.0.0)"
++Import-Package: org.apache.xmlrpc.client,
++ org.apache.xmlrpc,
++ org.apache.xmlrpc.common,
++ org.apache.xmlrpc.util
+ Bundle-ActivationPolicy: lazy
+ Export-Package: org.eclipse.mylyn.internal.trac.core;x-friends:="org.eclipse.mylyn.trac.ui",
+  org.eclipse.mylyn.internal.trac.core.client;x-friends:="org.eclipse.mylyn.trac.ui",
